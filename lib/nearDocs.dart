@@ -47,4 +47,4 @@ class MapSampleState extends State<MapSample> {
     final GoogleMapController controller = await _controller.future;
     await controller.animateCamera(CameraUpdate.newCameraPosition(_kLake));
   }
-}
+}//second commit
